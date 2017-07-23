@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
-
+import Hello from "./hello";
 function tick() {
   const ele = (
     <div>
@@ -11,6 +11,7 @@ function tick() {
       <h2>
         it is {new Date().toLocaleTimeString()}
       </h2>
+      <Hello />
     </div>
   );
 
