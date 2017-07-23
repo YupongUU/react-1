@@ -10,7 +10,7 @@ class App extends Component {
         <h2>第二次测试React能否在git展示</h2>
         <h3>disanci cheshi </h3>
         <h3>disanci cheshi lalal</h3>
-        <h3>第七次测试</h3>
+        <h3>第七次测试+1</h3>
       </div>
     );
   }
