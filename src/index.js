@@ -9,13 +9,12 @@ function tick() {
     <div>
       <h1>hello2</h1>
       <h2>
-        it is {new Date().toLocaleDateString()}
+        it is {new Date().toLocaleTimeString()}
       </h2>
     </div>
   );
 
   ReactDOM.render(ele, document.getElementById("root"));
-  registerServiceWorker();
 }
 
-setInterval(tick(), 1000);
+setInterval(tick, 1000);
