@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>React 运行成功啦</h1>
+        <h2>第二次测试React能否在git展示</h2>
       </div>
     );
   }
